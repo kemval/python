@@ -1,0 +1,5 @@
+name = input("What is your first name?")
+last_name = input("What is your last name?")
+age = int (input("How old are you?"))
+current_year = int (2023)
+print("Hello stranger! Let me guess your birth year...Your full name is", name, last_name, "your current age is", age, "and you born back in", current_year - age)
