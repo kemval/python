@@ -19,7 +19,7 @@ def main():
         choice = input("\nEnter your choice (1-5): ")
 
         if choice == "1":
-            task = input("\nEnter task: ")
+            task = input ("\nEnter task: ")
             priority = input("\nEnter priority (High, Medium, Low): ")
             due_date = input("\nEnter due date: ")
             functions.add_task(task, priority, due_date)
