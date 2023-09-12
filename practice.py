@@ -4,23 +4,18 @@
 #The Python "ZeroDivisionError: float division by zero" occurs when we try to divide a floating-point number by 0.
 
 
-#_________________________________________________
+# #_________________________________________________
 
-a = 15.0
-b = 0
+# a = 15.0
+# b = 0
 
-result = a / b
+# result = a / b
 
-#_________________________________________________
+# #_________________________________________________
 
-a = 15.0
-b = 0
+doc = open ('text.txt', 'rt')
+doc.write ('Writing to this file.')
+print (doc.read () )
+doc.close ()
 
-try:
-    result = a / b
-except ZeroDivisionError:
-    result = 0
-
-print(result) 
-
-
+q=s.read(1)
